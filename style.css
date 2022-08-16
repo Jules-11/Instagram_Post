@@ -1,0 +1,75 @@
+body {
+background-color: black;
+font-family: 'Roboto', sans-serif;
+font-size: 0.8em;
+}
+
+.main_card {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px;  
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 2em;
+    padding-right: 10px;
+}
+
+.title {
+    width: 100%;
+    text-align: left;
+}
+
+.title span {
+    display: block;
+}
+
+.title span:first-child {
+    font-weight: bold;
+}
+
+.menu i {
+    font-size: 2em;
+}
+
+.picture {
+    overflow: hidden;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.footer {
+    padding: 15px;
+}
+
+.actions {
+    display: flex;
+    font-size: 2em;
+}
+
+.actions i {
+    padding: 4px;
+}
+
+.actions div {
+    flex-grow: 1;
+}
+
+.likes {
+    padding: 13px 0;
+}
+
+.likes span {
+    font-weight: bold;
+}
